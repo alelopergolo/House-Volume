@@ -2,7 +2,35 @@
 <html lang="en-us">
     <head>
         <meta charset="utf-8">
-        <title>htmlFile</title>
-        <script src="Untitled-1"></script>
+        <meta name="viewport" content="width=device-width " initial-scale="1">
+        <title>House Volume</title>
+        <script src="JScode.js"></script>
+
+        <style>
+            .outputText {
+                text-align: center;
+                font-size:larger;
+                font-family: fantasy;
+                background-color: bisque;
+            }
+
+            .textMain {
+                text-align: center;
+                font-size:xx-large
+                font-family: cursive;
+            }
+        </style>
+
     </head>
+    <body class="outputText">
+        <h1>House Volume</h1>
+    <div>
+        <img src="ale.jpg" width="700" height="300">
+        <p>Enter the Width: <input type="text" id="WidthV"> </p>
+        <p>Enter the Depth: <input type="text" id="DepthV"> </p>
+        <p>Enter the Height: <input type="text" id="HeightV"> </p>
+        <p>Enter the Sweep: <input type="text" id="SweepV"> </p>
+        <button type="button" onclick="doInputOutput()">Submit</button></div><br>
+        <div id="Output" class="outputText"></div>
+    </body>
 </html>
